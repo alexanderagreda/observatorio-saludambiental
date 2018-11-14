@@ -39,15 +39,26 @@ div.dropdown-menu a.dropdown-item:hover{
 }
 
 .container-slide{
-    margin: 1% 1% 0 0;
     height: 50%;
 }
 
 div.carousel-inner div.carousel-item img{
-    height: 420px;
+    height: 400px;
 }
 
 div.carousel-caption{
     background-color: rgba(23, 23, 23, 0.8);
+}
+
+.row.content{
+    margin-top: 1%;
+}
+
+div.news{
+    border: #009f9a solid 2px;
+}
+
+h2.title-news{
+    color: #009f9a;
 }
 
