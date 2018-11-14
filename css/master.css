@@ -1,0 +1,53 @@
+.logo-obs {
+    width: 100%;
+    height: auto;
+}
+.logo-salud{
+    height: 176px;
+}
+nav {
+    background-color: #f29200;
+}
+
+nav a{
+    border-right: #ffffff solid 2px;
+}
+
+nav a:hover{
+    background-color: #009f9a;  
+}
+
+nav a{
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #009f9a;
+}
+
+.nav-pills .nav-link{
+    border-radius: 0 !important;
+}
+
+div.dropdown-menu a.dropdown-item:hover{
+    background-color: #009f9a;
+    color: #ffffff;
+}
+
+.container-slide{
+    margin: 1% 1% 0 0;
+    height: 50%;
+}
+
+div.carousel-inner div.carousel-item img{
+    height: 420px;
+}
+
+div.carousel-caption{
+    background-color: rgba(23, 23, 23, 0.8);
+}
+
