@@ -90,3 +90,30 @@ div.directory {
     border: solid 2px #e84e1c;
     border-style: dashed;
 }
+
+/* Background Colors */
+
+
+
+.light-green{
+    padding: 2%;
+    margin: 0px;
+    background-color: #009f9a;
+    color: #ffffff;
+}
+
+.green{
+    padding: 2%;
+    margin: 0px;
+    background-color: #006634;
+    color: #ffffff;
+}
+
+.orange{
+    padding: 5%;
+    margin: 0px;
+    background-color: #f29200;
+    color: #ffffff;
+}
+
+
