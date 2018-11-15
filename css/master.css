@@ -13,6 +13,10 @@ nav a{
     border-right: #ffffff solid 2px;
 }
 
+.last-item{
+    border-right: none;
+}
+
 nav a:hover{
     background-color: #009f9a;  
 }
@@ -51,14 +55,38 @@ div.carousel-caption{
 }
 
 .row.content{
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
+/*styles module news*/
+
 div.news{
-    border: #009f9a solid 2px;
+    border: #009f9a solid 3px;
 }
 
 h2.title-news{
     color: #009f9a;
 }
 
+.list-group-item{
+    margin-bottom:-1px;
+    background-color: none;
+    border: solid 1px #009f9a;
+}
+
+/* margin top row components*/
+
+.components {
+    margin-top: 1%;
+}
+
+div.directory {
+    border: #e84e1c solid 3px;    
+}
+
+.directory-item li{
+    margin-bottom:-1px;
+    background-color: none;
+    border: solid 2px #e84e1c;
+    border-style: dashed;
+}
