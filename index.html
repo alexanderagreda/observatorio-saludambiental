@@ -14,6 +14,9 @@
     <!-------- Import css customize -------->
     <link rel="stylesheet" href="css/master.css">
 
+    <!-------- Import sweer alert -------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.0/sweetalert2.min.css">
+
     <title>Observatorio de Salud Ambiental</title>
   </head>
   <body>
@@ -116,9 +119,70 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-5">Componentes</div>
-                    <div class="col-sm-12 col-md-4">Facebook</div>
-                </div>
+
+                    <div class="col-sm-12 col-md-5">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <a href="#"><img class="img-component" src="img/ambiente.png" alt="Componente ambiente"></a>
+                            </div>
+                            <div class="col-sm-12">
+                                <a href="#"><img class="img-component" src="img/etv.png" alt="Componente etv"></a>
+                            </div>
+                            <div class="col-sm-12">
+                                <a href="#"><img class="img-component" src="img/consumo.png" alt="Componente consumo"></a>
+                            </div>
+                            <div class="col-sm-12">
+                                <a href="#"><img class="img-component" src="img/zoonosis.png" alt="Componente zoonosis"></a>
+                            </div>
+                        </div>
+                    </div><!-------- end col components img -------->
+                    
+                    <div class="col-sm-12 col-md-4">
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) {
+                              var js, fjs = d.getElementsByTagName(s)[0];
+                              if (d.getElementById(id)) return;
+                              js = d.createElement(s); js.id = id;
+                              js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2';
+                              fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsecretariasaludcauca&tabs=timeline&width=340&height=587&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="587" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div><!-------- end col facebook -------->
+
+                    <div class="col-sm-12 videos">
+                        <div class="row">
+                            <div class="col-sm-12 text-left"><h5>Videos</h5></div>
+                            <div class="col-sm-12 col-md-4">
+                                    <iframe width="95%" height="250" src="https://www.youtube.com/embed/JaZ3kDs-EMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                    <iframe width="95%" height="250" src="https://www.youtube.com/embed/JaZ3kDs-EMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                    <iframe width="95%" height="250" src="https://www.youtube.com/embed/JaZ3kDs-EMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                            </div>
+                        </div>
+                    </div><!-------- end col videos -------->
+
+                    <div class="col-sm-12 footer">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-8 footer-info align-self-center">
+                                <p>Gobernación del Cauca - Secretaría de Salud Departamental<br />NIT 891580016-8 Código DANE: 19000<br/>Atención al usuario: Lunes a viernes, de 8:00 a.m. a 12:00 m y de 2:00 p.m. a 6:00 p.m.<br />Punto de atención presencial: Calle 5 No. 15-57, Popayán (Cauca)
+                                    <br />Contáctenos:  +(2) 8209607 8209614 8209601 - Central de fax (2) 8209602
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-4 logo-cauca">
+                                <img class="logo-cauca" src="img/logo-cauca.png" alt="Logo-cauca">
+                            </div>
+                        </div>
+                    </div><!-------- end col footer -------->
+
+                </div><!-------- end row components -------->
+
             </div>
             
         </div><!-------- end row content -------->
@@ -129,7 +193,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-------- Import scripts customize -------->
+    <!-------- Import sweet alert -------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.0/sweetalert2.min.js"></script>
+    <!-------- Import js customize -------->   
     <script src="js/main.js"></script>
+    
   </body>
 </html>

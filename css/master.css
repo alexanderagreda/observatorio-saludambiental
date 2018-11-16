@@ -21,13 +21,10 @@ nav a:hover{
     background-color: #009f9a;  
 }
 
-nav a{
+nav a, nav a:hover{
     color: #ffffff;
 }
 
-nav a:hover{
-    color: #ffffff;
-}
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: #009f9a;
@@ -93,8 +90,6 @@ div.directory {
 
 /* Background Colors */
 
-
-
 .light-green{
     padding: 2%;
     margin: 0px;
@@ -116,4 +111,41 @@ div.directory {
     color: #ffffff;
 }
 
+/* Content Components  */
+
+.img-component{
+    width: 100%;
+    margin: 3% 0 3% 0;
+    
+}
+
+div.videos{
+    margin-top: 1%;
+    padding: 1%;
+    background-color: #35a8df;
+    color: #ffffff;
+}
+
+div.footer{
+    margin-top: 1%;
+}
+
+div.logo-cauca , div.footer-info{
+    padding-top: 1%;
+}
+
+div.logo-cauca{
+    background-color: #ffffff;
+}
+
+div.footer-info{
+    background-color: #3c3c3c;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+img.logo-cauca{
+    width: 60%;
+    height: 100%;
+}
 
