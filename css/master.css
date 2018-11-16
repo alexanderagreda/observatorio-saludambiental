@@ -1,10 +1,18 @@
+div.container{
+    box-shadow: 0px 3px 19px 1px rgba(0,0,0,0.75) !important;
+}
+
 .logo-obs {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
+
 .logo-salud{
-    height: 176px;
+    height: 145px;
 }
+
+/* menu */
+
 nav {
     background-color: #f29200;
 }
@@ -25,7 +33,6 @@ nav a, nav a:hover{
     color: #ffffff;
 }
 
-
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: #009f9a;
 }
@@ -40,55 +47,45 @@ div.dropdown-menu a.dropdown-item:hover{
 }
 
 .container-slide{
+    width: 80% !important;
     height: 50%;
 }
+
 
 div.carousel-inner div.carousel-item img{
     height: 400px;
 }
 
+
 div.carousel-caption{
     background-color: rgba(23, 23, 23, 0.8);
 }
 
-.row.content{
-    margin-top: 2%;
-}
 
-/*styles module news*/
 
-div.news{
+.news{
     border: #009f9a solid 3px;
 }
+
 
 h2.title-news{
     color: #009f9a;
 }
 
-.list-group-item{
-    margin-bottom:-1px;
-    background-color: none;
-    border: solid 1px #009f9a;
-}
-
-/* margin top row components*/
-
-.components {
-    margin-top: 1%;
-}
-
-div.directory {
+.directory {
     border: #e84e1c solid 3px;    
 }
 
+
 .directory-item li{
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom:-1px;
     background-color: none;
     border: solid 2px #e84e1c;
     border-style: dashed;
 }
 
-/* Background Colors */
 
 .light-green{
     padding: 2%;
@@ -111,41 +108,26 @@ div.directory {
     color: #ffffff;
 }
 
-/* Content Components  */
-
 .img-component{
     width: 100%;
-    margin: 3% 0 3% 0;
-    
+    padding: 3% 0 3% 0;
 }
 
-div.videos{
-    margin-top: 1%;
+.multimedia{
     padding: 1%;
-    background-color: #35a8df;
     color: #ffffff;
+    background-color: #35a8df;
 }
 
-div.footer{
-    margin-top: 1%;
-}
-
-div.logo-cauca , div.footer-info{
-    padding-top: 1%;
-}
-
-div.logo-cauca{
-    background-color: #ffffff;
-}
-
-div.footer-info{
+.footer-info{
+    padding-top: 2%;
     background-color: #3c3c3c;
     color: #ffffff;
     font-size: 0.8rem;
 }
 
+
 img.logo-cauca{
     width: 60%;
     height: 100%;
 }
-
