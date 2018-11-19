@@ -1,4 +1,5 @@
 body{
+    min-width: 448px;
     margin: 0 !important;
     padding: 0 !important;
     background-color: #e9e9e9;
@@ -69,6 +70,9 @@ div.carousel-caption{
     background-color: rgba(23, 23, 23, 0.8);
 }
 
+.row.content{
+    margin-top: 1%;
+}
 
 .news{
     border: #009f9a solid 3px;
